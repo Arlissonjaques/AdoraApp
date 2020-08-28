@@ -1,5 +1,6 @@
 import 'package:adoraapp/mywidgets/app_bar.dart';
 import 'package:adoraapp/mywidgets/button.dart';
+import 'package:adoraapp/mywidgets/buttons_float.dart';
 import 'package:flutter/material.dart';
 
 
@@ -16,12 +17,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.folder_open),
-        onPressed: (){},
-        backgroundColor: Colors.cyan,
-      ),
+
+      floatingActionButton: buttonFloat(),
 
       appBar: CustomAppBar(),
       body: Container(
@@ -43,7 +40,7 @@ class _HomeState extends State<Home> {
             Container(
               padding: EdgeInsets.only(top: 90),
               child:Center(
-                child: Text("Precione INICIAR para comerçar!",
+                child: Text("Pressione INICIAR para comerçar!",
                 style: TextStyle(fontSize: 25, fontWeight: FontWeight.w600, color: Color(0xff808080)),
                 ),
               ),
@@ -55,6 +52,8 @@ class _HomeState extends State<Home> {
               child: customButtom(h: 65, w: 200, text: "INICIAR", varTextSize: 25.0),
               
             ),
+
+            
 
           ],
         ),

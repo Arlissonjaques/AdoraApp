@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 Color gradientStartColor = Color(0xfff45d27);
 Color gradientEndColor = Color(0xfff5851f);
 
-double heightAppBar = 250.0;
+double heightAppBar = 300.0;
 
 
 class CustomAppBar extends StatefulWidget implements PreferredSizeWidget{
