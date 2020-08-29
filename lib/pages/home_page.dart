@@ -1,6 +1,6 @@
-import 'package:adoraapp/mywidgets/app_bar.dart';
-import 'package:adoraapp/mywidgets/button.dart';
-import 'package:adoraapp/mywidgets/buttons_float.dart';
+import 'package:adoraapp/widgets/app_bar.dart';
+import 'package:adoraapp/widgets/button.dart';
+import 'package:adoraapp/widgets/buttons_float.dart';
 import 'package:flutter/material.dart';
 
 
